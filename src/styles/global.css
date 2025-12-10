@@ -44,6 +44,7 @@
 }
 
 /* --- LADO DIREITO --- */
+
 .lado_direito {
     width: 70%; /* A outra metade da tela */
     height: 100vh;
@@ -58,7 +59,7 @@
     background-color: #000;
     border-radius: 50px;
     padding: 40px;
-    color: white;
+    color: #fff;
 }
 
 /* --- MENU DENTRO DO BLOCO PRETO --- */
@@ -84,8 +85,6 @@
 
 /* --- Conteudo Principal --- */
 
-
-
 .conteudo_principal {
     display: flex;
     justify-content: center;
@@ -109,7 +108,8 @@
     flex-direction: row; 
     justify-content: center;
     gap: 20px; 
-    margin-top: 7%;
+    margin-top: 25px;
+    flex-wrap: wrap;
 }
 
 /* Botão CV */
@@ -120,8 +120,9 @@
     background-color: #000;
     border: 1px #fff solid;
     border-radius: 30px;
-    width: 160px;
-    height: 50px;
+    padding: 15px 80px;
+    width: 100%;
+    max-width: 240px; 
     cursor: pointer; 
     transition: 0.5s;
 }
@@ -140,14 +141,15 @@
     color: #000;
     border: 1px #000 solid;
     border-radius: 30px;
-    width: 160px; 
-    height: 50px;
+    padding: 15px 80px;
+    width: 100%;
+    max-width: 160px; 
     cursor: pointer;
     transition: 0.5s;
 }
 
 .btn_contatos a {
-    color: #000000;
+    color: #000;
     text-decoration: none;
 }
 
@@ -158,11 +160,13 @@
 /* =========================================================================== */
 
 .btn_sociais {
-    margin-top: 7%;
+    margin-top: 30px;
+    margin-right: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .github img {
