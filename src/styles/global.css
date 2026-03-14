@@ -123,7 +123,7 @@
     padding: 15px 80px;
     width: 100%;
     max-width: 240px; 
-    cursor: pointer; 
+    cursor: pointer;
     transition: 0.5s;
 }
 
@@ -171,11 +171,13 @@
 
 .github img {
     width: 80px;
+    cursor: pointer;
 }
 
 .linkedin img{
     margin-top: 4%;
     width: 70px;
+    cursor: pointer;
 }
 
 /* =============================================================================================== */
